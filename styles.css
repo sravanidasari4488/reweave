@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.logo {
+    font-size: 2rem;
+    font-family: 'Serif', serif;
+    color: #60553D; /* Logo color matching the Suvētah look */
+}
+
+.brand-philosophy {
+    text-align: center;
+    background-color: #60553D;
+    color: white;
+    padding: 3rem 2rem;
+}
+
+.brand-philosophy h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.brand-philosophy a {
+    color: #E4D1B6;
+    text-decoration: none;
+}
+
+.brand-philosophy p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.organic-fabrics {
+    text-align: center;
+    padding: 2rem;
+}
+
+.buy-now-container {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.buy-now {
+    padding: 0.8rem 1.5rem;
+    background-color: #b2a180;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Product grid styling */
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.product-item:hover {
+    transform: scale(1.05);
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.product-name {
+    font-weight: bold;
+    margin-top: 1rem;
+    color: #333;
+}
+
+.product-brand {
+    color: #888;
+    margin: 0.5rem 0;
+}
+
+.product-price {
+    color: #b2a180;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.organic-fabrics1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.buy-now-container1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.buy-now1 {
+    padding: 0.8rem 1.5rem;
+    background-color: #b2a180;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Product grid styling */
+.product-grid1 {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.product-item1 {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.product-item1:hover {
+    transform: scale(1.05);
+}
+
+.product-item1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.product-name1 {
+    font-weight: bold;
+    margin-top: 1rem;
+    color: #333;
+}
+
+.product-brand1 {
+    color: #888;
+    margin: 0.5rem 0;
+}
+
+.product-price1 {
+    color: #b2a180;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+footer {
+    background-color: #f9f7f3;
+    padding: 40px;
+    color: #6e4e28;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #6e4e28;
+    text-decoration: none;
+}
+
+.footer-subscribe {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.footer-subscribe form {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #6e4e28;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.footer-subscribe input[type="email"] {
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.footer-subscribe button {
+    background-color: #6e4e28;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom .currency select {
+    padding: 5px;
+    border: 1px solid #6e4e28;
+    background-color: #fff;
+    font-size: 14px;
+    color: #6e4e28;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.payment-methods img {
+    width: 40px;
+    margin-left: 10px;
+}
+
+.payment-methods img:last-child {
+    margin-right: 0;
+}
+
+/* Pagination and view all button */
+.pagination {
+    margin-top: 2rem;
+}
+
+.view-all {
+    padding: 0.8rem 2rem;
+    background-color: #604A2B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.view-all:hover {
+    background-color: #503c23;
+}
+
+/* Help button */
+.help-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #604A2B;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
